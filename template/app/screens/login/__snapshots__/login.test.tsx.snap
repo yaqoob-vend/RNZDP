@@ -1,0 +1,691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Some test spec examples of some things 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <RCTImageView
+      internal_analyticTag={null}
+      resizeMode="cover"
+      source={
+        Array [
+          Object {
+            "height": undefined,
+            "uri": undefined,
+            "width": undefined,
+          },
+        ]
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 100,
+          "overflow": "hidden",
+          "width": 100,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingVertical": 12,
+          },
+          Object {},
+          Object {
+            "padding": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#939AA4",
+              "fontFamily": "Helvetica",
+              "fontSize": 13,
+            },
+            undefined,
+          ]
+        }
+      >
+        Email
+      </Text>
+      <TextInput
+        defaultValue="eve.holt@reqres.in"
+        onChangeText={[Function]}
+        placeholder="Enter Email"
+        placeholderTextColor="#CDD4DA"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 18,
+              "minHeight": 44,
+            },
+            Object {
+              "color": "black",
+            },
+          ]
+        }
+        testID="email"
+        underlineColorAndroid="rgba(0, 0, 0, 0)"
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Helvetica",
+            "fontSize": 15,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingVertical": 12,
+          },
+          Object {},
+          Object {
+            "padding": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#939AA4",
+              "fontFamily": "Helvetica",
+              "fontSize": 13,
+            },
+            undefined,
+          ]
+        }
+      >
+        Password
+      </Text>
+      <TextInput
+        defaultValue="cityslicka"
+        onChangeText={[Function]}
+        placeholder="Enter Password"
+        placeholderTextColor="#CDD4DA"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 18,
+              "minHeight": 44,
+            },
+            Object {
+              "color": "black",
+            },
+          ]
+        }
+        testID="password"
+        underlineColorAndroid="rgba(0, 0, 0, 0)"
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Helvetica",
+            "fontSize": 15,
+          },
+          Object {
+            "color": "black",
+          },
+        ]
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FBA928",
+          "borderRadius": 4,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+      testID="login"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 15,
+            },
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 9,
+                "paddingHorizontal": 12,
+              },
+              Object {
+                "fontSize": 15,
+              },
+            ],
+          ]
+        }
+      >
+        Login
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Test for Login Component successfully login 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <RCTImageView
+      internal_analyticTag={null}
+      resizeMode="cover"
+      source={
+        Array [
+          Object {
+            "height": undefined,
+            "uri": undefined,
+            "width": undefined,
+          },
+        ]
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 100,
+          "overflow": "hidden",
+          "width": 100,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingVertical": 12,
+          },
+          Object {},
+          Object {
+            "padding": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#939AA4",
+              "fontFamily": "Helvetica",
+              "fontSize": 13,
+            },
+            undefined,
+          ]
+        }
+      >
+        Email
+      </Text>
+      <TextInput
+        defaultValue="eve.holt@reqres.in"
+        onChangeText={[Function]}
+        placeholder="Enter Email"
+        placeholderTextColor="#CDD4DA"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 18,
+              "minHeight": 44,
+            },
+            Object {
+              "color": "black",
+            },
+          ]
+        }
+        testID="email"
+        underlineColorAndroid="rgba(0, 0, 0, 0)"
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Helvetica",
+            "fontSize": 15,
+          },
+          Object {
+            "color": "black",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingVertical": 12,
+          },
+          Object {},
+          Object {
+            "padding": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#939AA4",
+              "fontFamily": "Helvetica",
+              "fontSize": 13,
+            },
+            undefined,
+          ]
+        }
+      >
+        Password
+      </Text>
+      <TextInput
+        defaultValue="cityslicka"
+        onChangeText={[Function]}
+        placeholder="Enter Password"
+        placeholderTextColor="#CDD4DA"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 18,
+              "minHeight": 44,
+            },
+            Object {
+              "color": "black",
+            },
+          ]
+        }
+        testID="password"
+        underlineColorAndroid="rgba(0, 0, 0, 0)"
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Helvetica",
+            "fontSize": 15,
+          },
+          Object {
+            "color": "black",
+          },
+        ]
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FBA928",
+          "borderRadius": 4,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+      testID="login"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 15,
+            },
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 9,
+                "paddingHorizontal": 12,
+              },
+              Object {
+                "fontSize": 15,
+              },
+            ],
+          ]
+        }
+      >
+        Login
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FBA928",
+          "borderRadius": 4,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+      testID="login"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 15,
+            },
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 9,
+                "paddingHorizontal": 12,
+              },
+              Object {
+                "fontSize": 15,
+              },
+            ],
+          ]
+        }
+      >
+        Login with Google
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`examples of some things 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <RCTImageView
+      internal_analyticTag={null}
+      resizeMode="cover"
+      source={
+        Array [
+          Object {
+            "height": undefined,
+            "uri": undefined,
+            "width": undefined,
+          },
+        ]
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 100,
+          "overflow": "hidden",
+          "width": 100,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingVertical": 12,
+          },
+          Object {},
+          Object {
+            "padding": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#939AA4",
+              "fontFamily": "Helvetica",
+              "fontSize": 13,
+            },
+            undefined,
+          ]
+        }
+      >
+        Email
+      </Text>
+      <TextInput
+        defaultValue="eve.holt@reqres.in"
+        onChangeText={[Function]}
+        placeholder="Enter Email"
+        placeholderTextColor="#CDD4DA"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 18,
+              "minHeight": 44,
+            },
+            Object {
+              "color": "black",
+            },
+          ]
+        }
+        testID="email"
+        underlineColorAndroid="rgba(0, 0, 0, 0)"
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Helvetica",
+            "fontSize": 15,
+          },
+          Object {},
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "paddingVertical": 12,
+          },
+          Object {},
+          Object {
+            "padding": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#939AA4",
+              "fontFamily": "Helvetica",
+              "fontSize": 13,
+            },
+            undefined,
+          ]
+        }
+      >
+        Password
+      </Text>
+      <TextInput
+        defaultValue="cityslicka"
+        onChangeText={[Function]}
+        placeholder="Enter Password"
+        placeholderTextColor="#CDD4DA"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 18,
+              "minHeight": 44,
+            },
+            Object {
+              "color": "black",
+            },
+          ]
+        }
+        testID="password"
+        underlineColorAndroid="rgba(0, 0, 0, 0)"
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Helvetica",
+            "fontSize": 15,
+          },
+          Object {
+            "color": "black",
+          },
+        ]
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FBA928",
+          "borderRadius": 4,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+      testID="login"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Helvetica",
+              "fontSize": 15,
+            },
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 9,
+                "paddingHorizontal": 12,
+              },
+              Object {
+                "fontSize": 15,
+              },
+            ],
+          ]
+        }
+      >
+        Login
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989036069",
+    "project_id": "zerodayrn",
+    "storage_bucket": "zerodayrn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989036069:android:f77ac27008e8c2b067c9cc",
+        "android_client_info": {
+          "package_name": "com.vdzdp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989036069-b7gds7783cu67vqs1lo4t1j7pbs5ihgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_q2AmXlNn7Fujzh_1lZSst305GvW8dNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989036069-b7gds7783cu67vqs1lo4t1j7pbs5ihgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
